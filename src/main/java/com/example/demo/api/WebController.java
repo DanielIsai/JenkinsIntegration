@@ -9,7 +9,7 @@ public class WebController {
 	
 	@GetMapping("/Hello")
 	public String Menu(Model model) {
-		return "¡ Hello World !";
+		return "¡ Hola Mundo !";
 	}
 	
 }
