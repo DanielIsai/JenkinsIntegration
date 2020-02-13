@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8050
-ADD target/demoIntegration.jar demoIntegration.jar		
-ENTRYPOINT ["java", "-jar","/demoIntegration.jar"]
+ADD target/demo_integration.jar demo_integration.jar		
+ENTRYPOINT ["java", "-jar","/demo_integration.jar"]
